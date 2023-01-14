@@ -1,0 +1,45 @@
+                           e                                                       
+
+
+ Alignment 25  KEY: ( ) = guessed, * = sure, ? = possible
+  ---------------------------------------------------------------------
+ | ?                                                                ( ) | avec
+ |   (*)                                                                | ce
+ |   ( ) ?                                                              | projet
+ |       ?                                                          ( ) | de
+ |   ( ) ?                                                              | loi
+ |                                                                  ( ) | ,
+ |         (*)                                                          | il
+ |             ? (?)                                                    | sera
+ |         ( )       *                                                  | illégal
+ |                                        *                         ( ) | de
+ |                                          (*)                         | demander
+ |                                       ( ) ?  ?                       | à
+ |                        ( )                   *                       | un
+ |                                                (*)                   | chauffeur
+ |                                                                  ( ) | de
+ |                  ( )                *                                | taxi
+ |                                                   (*)                | comment
+ |                  ( )                                  ?  *           | contacter
+ |                        ( )                                  *        | une
+ |               ( )                                              *     | prostituée
+ |                                                                  (*) | .
+  ---------------------------------------------------------------------
+   u  t  B  i  w  b  u  f  a  p  i  a  t  t  a  a  d  h  t  c  a  p  . 
+   n  h  i  t  o  e  n  o     a  n     a  o  s     r  o  o  o     r    
+   d  i  l     u     l  r     s        x     k     i  w     n     o    
+   e  s  l     l     a        s        i           v        t     s    
+   r           d     w        e                    e        a     t    
+                     f        n                    r        c     i    
+                     u        g                             t     t    
+                     l        e                                   u    
+                              r                                   t    
+                                                                  e    
+
+
+
+
+Precision = 0.540915
+Recall = 0.772189
+AER = 0.385269
+
