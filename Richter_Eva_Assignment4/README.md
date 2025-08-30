@@ -1,25 +1,42 @@
-### Word-Alignments
+# 📊 Assignment 4 — Word Alignments (IBM Model 1)  
 
-This is the fourth assignment from the **computational linguistics** lecture at **Saarland University** during the **WS 2021/21**. In this assignment a word aligner was implemented, which is an essential task for statistical machine translation systems. Given a pair of aligned sentences in English-French, the source words were aligned to their target translations. An aligner based on IBM Model 1 was implemented to improve over the baseline. Furthermore, an off-the-shelf aligner was implemented. My IBM Model 1 was compared to the implementation of Model 1 in the off-the-shelf aligner *Fast Align*, the results of which are presented in the results.pdf file.
+This is the fourth assignment from the **Computational Linguistics lecture** at **Saarland University (WS 2021/22)**.  
+The task was to implement a **word aligner**, a core component of statistical machine translation (SMT) systems.  
 
-#### Project Structure
+---
 
- - word_alignments.ipynb
+## 🔎 Task Overview  
 
- - baseline-system.txt 
- 
- - IBM1.txt
- 
- - Fast-align.txt
- 
- - results.pdf
+- Implemented a **baseline word aligner** for English–French sentence pairs.  
+- Extended the system with an **IBM Model 1** implementation to improve alignment quality.  
+- Implemented and compared against an off-the-shelf aligner: **Fast Align**.  
+- Alignment outputs and results are presented in `results.pdf`.  
 
-#### Requirements: 
-            python 3.8.5
-        numpy 1.19.4
-            
-#### System Details: 
-            OS Ubuntu 20.04.1 LTS
-        OS type 64 bit
-         
+---
+
+## 📂 Project Structure  
+
+```text
+├── word_alignments.ipynb
+├── baseline-system.txt
+├── IBM1.txt
+├── Fast-align.txt
+├── results.pdf
+└── README.md
+```
+
+---
+
+## ⚙️ Environment  
+
+```text
+Requirements:
+  - python 3.8.5
+  - numpy 1.19.4
+
+System Details:
+  - OS: Ubuntu 20.04.1 LTS
+  - Type: 64-bit
+```
+
 
