@@ -41,14 +41,19 @@ Reimplementation of the classic *“Dissociated Press”* system:
 ├── Random_Text_Generation.ipynb
 ├── data/
 └── README.md
+```
 
---- 
- 
-### Requirements: 
-          python 3.8.5
-          matplotlib 3.3.3
-          nltk 3.5
-               
-### System Details: 
-        	 OS Ubuntu 20.04.1 LTS
- 	         OS type 64 bit
+---
+
+## ⚙️ Environment  
+
+```text
+Requirements:
+  - python 3.8.5
+  - matplotlib 3.3.3
+  - nltk 3.5
+
+System Details:
+  - OS: Ubuntu 20.04.1 LTS
+  - Type: 64-bit
+```
