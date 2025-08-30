@@ -1,34 +1,48 @@
-### Zipfs Law 
+# 📊 Assignment 1 — Zipf's Law & Random Text Generation  
 
-This is the first assignment from the **computational linguistics** lecture at **Saarland University** during the **WS 2021/21**. In this exercise Zipf's law has been implemented and verified. Zipf's Law states that when words are ranked by their frequency, the frequency of 
-a particular observation is inversely proportional to its rank. For each corpus a list of unique words was computed and sorted by descending frequency. Matplotlib was used to plot the frequency curves for the corpora, one plot with linear axes and another one with log-log axes. 
+This is the first assignment from the **Computational Linguistics lecture** at **Saarland University (WS 2021/22)**.  
+It consists of two parts: an implementation and verification of **Zipf’s Law**, and a **random text generator** based on n-gram models.  
 
-*Data sets:*
+---
 
-- King James Bible 
-- The Jungle Book 
-- SETIMES Turkish-Bulgarian parallel newspaper text
+## 🔎 Zipf's Law  
 
+Zipf's Law states that when words are ranked by their frequency, the frequency of a word is inversely proportional to its rank.  
 
-### Random Text Generation
+- For each corpus, a list of unique words was computed and sorted by descending frequency.  
+- **Matplotlib** was used to plot the frequency curves:  
+  - one plot with linear axes  
+  - another plot with log–log axes  
 
-This exercise is a reimplementation of the “Dissociated Press” system, aiming at generating random text from an n-gram model over a corpus.
-Based on this system a number of text samples, 100 words in length per each, was produced. N was varied from 2 to 4. 
+**Datasets:**  
+- *King James Bible*  
+- *The Jungle Book*  
+- *SETIMES* Turkish–Bulgarian parallel newspaper text  
 
-*Data set:*
+---
 
-- War and Peace
+## ✍️ Random Text Generation  
 
-#### Project Structure
+Reimplementation of the classic *“Dissociated Press”* system:  
 
- - Zips's_Law.ipynb
+- Generates random text from an **n-gram language model** trained on a corpus.  
+- Produced text samples of 100 words in length.  
+- Parameter *n* varied between **2–4**.  
 
- - Random_Text_Generation.ipynb
+**Dataset:**  
+- *War and Peace*  
 
- - data
- 
- - README.md
- 
+---
+
+## 📂 Project Structure  
+
+```text
+├── Zipfs_Law.ipynb
+├── Random_Text_Generation.ipynb
+├── data/
+└── README.md
+
+--- 
  
 ### Requirements: 
           python 3.8.5
