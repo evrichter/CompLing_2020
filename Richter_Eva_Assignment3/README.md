@@ -1,42 +1,54 @@
-### CFG and CKY Parser
-This is the third assignment from the **computational linguistics** lecture at **Saarland University** during the **WS 2021/21**. In this assignment the Cocke-Kasami-Younger (CKY) algorithm for bottom-up CFG parsing was implemented and applied to the word and the parsing problem of English.
+# 📊 Assignment 3 — CFGs & CKY Parsing  
 
-The CKY Parser was implemented based on the ATIS CFG available in the NLTK datapackage, together with 98 
-test sentences. ATIS CFG is a grammar which stems from a project dealing with implementing spoken language 
-processing systems in the airline industry – the Airline Travel Information System.
+This is the third assignment from the **Computational Linguistics lecture** at **Saarland University (WS 2021/22)**.  
+The task was to implement the **Cocke–Kasami–Younger (CKY) algorithm** for bottom-up parsing with context-free grammars (CFGs).  
 
-*Output:*
+---
 
-- trees_number_txt file containing the parsing results (number of parses per sentence) with one line of the 
-form sentence\t#parses for each test sentence, where \t is a tab character
+## 🔎 Task Overview  
 
-- images_parse_trees.pdf containing pictures of the parse trees for an ATIS test sentence with two to five parses. 
+- Implemented a **CKY parser** using the **ATIS CFG** (from the NLTK data package).  
+- ATIS CFG originates from the **Airline Travel Information System** project (spoken language processing for airline queries).  
+- Evaluated the parser on **98 English test sentences**.  
 
+**Outputs:**  
+- `trees_number.txt` → contains results in the format `sentence \t #parses` for each test sentence.  
+- `images_parse_trees.pdf` → visualizations of parse trees for ATIS test sentences with 2–5 parses.  
 
-#### Project Structure
+**Runtime:**  
+- Recognizer only: **43.7 seconds**  
+- Recognizer + parser: **49.8 seconds**  
 
- - CFG_and CKY_parsing.ipynb
+---
 
- - trees_number.txt 
- 
- - README.md
- 
-*The output files are:*
-- trees_number.txt, contains only filtered parse trees with 2-5 parses
-- trees_number.txt, contains the 98 test sentences and the number of parses for each sentence
+## 📂 Project Structure  
 
-*The CKY_Parser.ipynb file contains all the code for the CKY recognizer and parser*
- 
-#### Requirements: 
-               python 3.8.5
-               nltk 3.5
-               collections
-               itertools
-               datetime
-           
-#### System Details: 
-               OS Ubuntu 20.04.1 LTS
-           OS type 64 bit
-         
-The runtime for the recognizer is: 43.738257 seconds
-The runtime for the recognizer and parser is: 49.783717 seconds
+```text
+├── CFG_and_CKY_parsing.ipynb
+├── trees_number.txt
+├── images_parse_trees.pdf
+└── README.md
+```
+
+*Notes:*  
+- `trees_number.txt` appears twice in the assignment output:  
+  - One version with **all 98 test sentences** and their parse counts.  
+  - One filtered version containing only sentences with 2–5 parses.  
+- `CFG_and_CKY_parsing.ipynb` contains the full implementation of the CKY recognizer and parser.  
+
+---
+
+## ⚙️ Environment  
+
+```text
+Requirements:
+  - python 3.8.5
+  - nltk 3.5
+  - collections (standard library)
+  - itertools (standard library)
+  - datetime (standard library)
+
+System Details:
+  - OS: Ubuntu 20.04.1 LTS
+  - Type: 64-bit
+```
