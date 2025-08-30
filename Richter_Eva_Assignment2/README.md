@@ -10,7 +10,7 @@ The task was to implement the **Viterbi Algorithm** to find the optimal sequence
 - Implemented a **bigram POS tagger** based on Hidden Markov Models (HMMs).  
 - Parameters (*initial, transition, and emission probabilities*) were learned from data using a **maximum likelihood training procedure** for supervised HMMs.  
 - The trained model was evaluated on unseen test data.  
-- The Viterbi algorithm was applied to predict POS tags, and the results were stored in CoNLL two-column format (`dd-test.txt`).  
+- The Viterbi algorithm was applied to predict POS tags, and the results were stored in CoNLL two-column format (`dd-test.t`).  
 
 **Additional Materials:**  
 - `Discussion.pdf` → brief discussion of findings.  
